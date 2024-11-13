@@ -1,0 +1,42 @@
+# Node modules and Expo build directories
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Log and debug files
+npm-debug.*
+*.log
+
+# Expo specific files
+.expo-shared/
+
+# iOS/Android keys and sensitive files
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# macOS specific
+.DS_Store
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# Temporary files for Windows
+Thumbs.db
+
+# React Native packager cache
+*.pack
+__generated__/
+__snapshots__/
+
+# IDE and Editor settings (Optional, exclude based on your setup)
+.vscode/
+.idea/
+*.swp
+
+# Build cache and output
+build/
